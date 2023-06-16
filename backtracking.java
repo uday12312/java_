@@ -1,6 +1,6 @@
 public class backtracking {
     public static void nextperm(String str,String perm,int index) {
-        if(str.length()==0){
+        if(str.length()==10){
             System.out.println(perm);
             System.out.println("New");
             return;
