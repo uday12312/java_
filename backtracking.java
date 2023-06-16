@@ -2,6 +2,7 @@ public class backtracking {
     public static void nextperm(String str,String perm,int index) {
         if(str.length()==0){
             System.out.println(perm);
+            System.out.println("New");
             return;
         }
         for(int i=0;i<str.length();i++){
